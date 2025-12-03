@@ -46,14 +46,66 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="ADD_NEW_PRODUCT.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="ADD_NEW_PRODUCT.Designer.cs">
+      <DependentUpon>ADD_NEW_PRODUCT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\models\Products.cs" />
+    <Compile Include="Models\models\Users.cs" />
+    <Compile Include="Models\Products.cs" />
+    <Compile Include="Models\Users.cs" />
+    <Compile Include="USER_LOGIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USER_LOGIN.Designer.cs">
+      <DependentUpon>USER_LOGIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeManager.Designer.cs">
+      <DependentUpon>EmployeManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DASHBOARD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DASHBOARD.Designer.cs">
+      <DependentUpon>DASHBOARD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CASHIER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CASHIER.Designer.cs">
+      <DependentUpon>CASHIER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="portal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="portal.Designer.cs">
+      <DependentUpon>portal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ADD_NEW_PRODUCT.resx">
+      <DependentUpon>ADD_NEW_PRODUCT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USER_LOGIN.resx">
+      <DependentUpon>USER_LOGIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeManager.resx">
+      <DependentUpon>EmployeManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DASHBOARD.resx">
+      <DependentUpon>DASHBOARD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CASHIER.resx">
+      <DependentUpon>CASHIER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="portal.resx">
+      <DependentUpon>portal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -75,6 +127,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MySql\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

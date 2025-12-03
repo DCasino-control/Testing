@@ -1,0 +1,16 @@
+C:\Users\dieth\source\repos\Testing\Testing\bin\Debug\Testing.exe.config
+C:\Users\dieth\source\repos\Testing\Testing\bin\Debug\Testing.exe
+C:\Users\dieth\source\repos\Testing\Testing\bin\Debug\Testing.pdb
+C:\Users\dieth\source\repos\Testing\Testing\obj\Debug\Testing.csproj.AssemblyReference.cache
+C:\Users\dieth\source\repos\Testing\Testing\obj\Debug\Testing.Properties.Resources.resources
+C:\Users\dieth\source\repos\Testing\Testing\obj\Debug\Testing.csproj.GenerateResource.cache
+C:\Users\dieth\source\repos\Testing\Testing\obj\Debug\Testing.csproj.CoreCompileInputs.cache
+C:\Users\dieth\source\repos\Testing\Testing\obj\Debug\Testing.exe
+C:\Users\dieth\source\repos\Testing\Testing\obj\Debug\Testing.pdb
+C:\Users\dieth\source\repos\Testing\Testing\obj\Debug\Testing.exe.config
+C:\Users\dieth\source\repos\Testing\Testing\obj\Debug\Testing.ADD_NEW_PRODUCT.resources
+C:\Users\dieth\source\repos\Testing\Testing\obj\Debug\Testing.USER_LOGIN.resources
+C:\Users\dieth\source\repos\Testing\Testing\obj\Debug\Testing.EmployeManager.resources
+C:\Users\dieth\source\repos\Testing\Testing\obj\Debug\Testing.DASHBOARD.resources
+C:\Users\dieth\source\repos\Testing\Testing\obj\Debug\Testing.CASHIER.resources
+C:\Users\dieth\source\repos\Testing\Testing\obj\Debug\Testing.portal.resources
