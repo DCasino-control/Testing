@@ -23,5 +23,22 @@ namespace Testing.Models
             IsActive = true;
             CreatedDate = DateTime.Now;
         }
+        public virtual bool Login(string username, string password)
+        {
+            if (Username == username && Password == password && IsActive)
+            {
+                LastLogin = DateTime.Now;
+                return true;
+            }
+            return false;
+        }
+
+        public virtual void Logout()
+        {
+            
+        }
+        public abstract List<string> GetPermissions();
+        public abstract void ShowDashboard();
+
     }
 }
