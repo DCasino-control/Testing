@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Testing.Models
+namespace Testing.Models.models
 {
-    public class Products
+    internal class Transaction
     {
     }
 }

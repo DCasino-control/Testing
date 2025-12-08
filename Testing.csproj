@@ -52,10 +52,12 @@
     <Compile Include="ADD_NEW_PRODUCT.Designer.cs">
       <DependentUpon>ADD_NEW_PRODUCT.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\models\Admin.cs" />
+    <Compile Include="Models\models\Cashier.cs" />
     <Compile Include="Models\models\Products.cs" />
+    <Compile Include="Models\models\Transaction.cs" />
+    <Compile Include="Models\models\TransactionItem.cs" />
     <Compile Include="Models\models\Users.cs" />
-    <Compile Include="Models\Products.cs" />
-    <Compile Include="Models\Users.cs" />
     <Compile Include="USER_LOGIN.cs">
       <SubType>Form</SubType>
     </Compile>
