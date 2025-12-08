@@ -35,7 +35,7 @@ namespace Testing.Models
 
         public virtual void Logout()
         {
-            
+            // kani nga method mag handle sa logout process
         }
         public abstract List<string> GetPermissions();
         public abstract void ShowDashboard();
