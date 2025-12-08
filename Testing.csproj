@@ -58,11 +58,11 @@
     <Compile Include="Models\models\Transaction.cs" />
     <Compile Include="Models\models\TransactionItem.cs" />
     <Compile Include="Models\models\Users.cs" />
-    <Compile Include="USER_LOGIN.cs">
+    <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="USER_LOGIN.Designer.cs">
-      <DependentUpon>USER_LOGIN.cs</DependentUpon>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
     <Compile Include="EmployeManager.cs">
       <SubType>Form</SubType>
@@ -93,8 +93,8 @@
     <EmbeddedResource Include="ADD_NEW_PRODUCT.resx">
       <DependentUpon>ADD_NEW_PRODUCT.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="USER_LOGIN.resx">
-      <DependentUpon>USER_LOGIN.cs</DependentUpon>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EmployeManager.resx">
       <DependentUpon>EmployeManager.cs</DependentUpon>

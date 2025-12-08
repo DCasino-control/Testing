@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Testing
 {
-    public partial class USER_LOGIN : Form
+    public partial class LoginForm : Form
     {
-        public USER_LOGIN()
+        public LoginForm()
         {
             InitializeComponent();
         }
@@ -29,6 +29,11 @@ namespace Testing
 
             childForm.ShowDialog();
             this.Close();
+        }
+
+        private void USER_LOGIN_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
