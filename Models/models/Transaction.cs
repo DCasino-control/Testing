@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Testing.Models.models
 {
-    internal class Transaction
+    public  class Transaction
     {
+   
+
     }
 }

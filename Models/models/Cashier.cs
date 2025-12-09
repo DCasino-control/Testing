@@ -31,7 +31,7 @@ namespace Testing.Models.models
 
         public override void ShowDashboard()
         {
-            // Dashboard logic
+            // diri ma show and dashboard
         }
     }
 }

@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|c:\\users\\dieth\\source\\repos\\testing\\testing\\models\\models\\cashier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:models\\models\\cashier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|c:\\users\\dieth\\source\\repos\\testing\\testing\\models\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:models\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|c:\\users\\dieth\\source\\repos\\testing\\testing\\models\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\models\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:models\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -111,6 +115,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Cashier.cs",
+              "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\Cashier.cs",
+              "RelativeDocumentMoniker": "Models\\models\\Cashier.cs",
+              "ToolTip": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\Cashier.cs",
+              "RelativeToolTip": "Models\\models\\Cashier.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T04:21:16.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\Admin.cs",
               "RelativeDocumentMoniker": "Models\\models\\Admin.cs",
@@ -123,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Users.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\Users.cs",
               "RelativeDocumentMoniker": "Models\\models\\Users.cs",
@@ -131,12 +148,11 @@
               "RelativeToolTip": "Models\\models\\Users.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAA6wCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T02:49:16.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T02:49:16.027Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "LoginForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\LoginForm.cs",
               "RelativeDocumentMoniker": "LoginForm.cs",
@@ -147,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\LoginForm.cs",
               "RelativeDocumentMoniker": "LoginForm.cs",
@@ -159,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "LoginForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\LoginForm.Designer.cs",
               "RelativeDocumentMoniker": "LoginForm.Designer.cs",
@@ -171,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "LoginForm.resx",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\LoginForm.resx",
               "RelativeDocumentMoniker": "LoginForm.resx",
@@ -182,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Users.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\Users.cs",
               "RelativeDocumentMoniker": "Models\\Users.cs",
@@ -193,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Products.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\Products.cs",
               "RelativeDocumentMoniker": "Models\\Products.cs",
@@ -205,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "EmployeManager.cs [Design]",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\EmployeManager.cs",
               "RelativeDocumentMoniker": "EmployeManager.cs",
@@ -216,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "DASHBOARD.cs [Design]",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\DASHBOARD.cs",
               "RelativeDocumentMoniker": "DASHBOARD.cs",
@@ -227,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "DASHBOARD.Designer.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\DASHBOARD.Designer.cs",
               "RelativeDocumentMoniker": "DASHBOARD.Designer.cs",
@@ -239,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "CASHIER.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\CASHIER.cs",
               "RelativeDocumentMoniker": "CASHIER.cs",
@@ -251,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ADD_NEW_PRODUCT.cs [Design]",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\ADD_NEW_PRODUCT.cs",
               "RelativeDocumentMoniker": "ADD_NEW_PRODUCT.cs",
@@ -262,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "CASHIER.cs [Design]",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\CASHIER.cs",
               "RelativeDocumentMoniker": "CASHIER.cs",
@@ -273,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "portal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\portal.cs",
               "RelativeDocumentMoniker": "portal.cs",
@@ -284,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "EmployeManager.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\EmployeManager.cs",
               "RelativeDocumentMoniker": "EmployeManager.cs",
@@ -296,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "DASHBOARD.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\DASHBOARD.cs",
               "RelativeDocumentMoniker": "DASHBOARD.cs",
@@ -308,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "CASHIER.resx",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\CASHIER.resx",
               "RelativeDocumentMoniker": "CASHIER.resx",
@@ -319,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "CASHIER.Designer.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\CASHIER.Designer.cs",
               "RelativeDocumentMoniker": "CASHIER.Designer.cs",
@@ -331,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "EmployeManager.resx",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\EmployeManager.resx",
               "RelativeDocumentMoniker": "EmployeManager.resx",
@@ -342,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "EmployeManager.Designer.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\EmployeManager.Designer.cs",
               "RelativeDocumentMoniker": "EmployeManager.Designer.cs",
@@ -354,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "portal.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\portal.cs",
               "RelativeDocumentMoniker": "portal.cs",
@@ -366,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
