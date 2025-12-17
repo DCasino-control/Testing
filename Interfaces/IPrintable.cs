@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Testing.Interfaces
 {
-    internal interface IPrintable
+    public interface IPrintable
     {
+        void Print();
     }
 }

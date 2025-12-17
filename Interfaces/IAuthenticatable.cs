@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Testing.Interfaces
 {
-    internal interface IAuthenticatable
+    public interface IAuthenticatable
     {
+        bool Login(string username, string password);
+        void Logout();
     }
 }
+

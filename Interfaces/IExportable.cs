@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Testing.Interfaces
 {
-    internal interface IExportable
+    public interface IExportable
     {
+        void ExportToPDF(string filePath);
+        void ExportToExcel(string filePath);
     }
 }
+
