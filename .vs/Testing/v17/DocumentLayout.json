@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\models\\models\\suppliermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|c:\\users\\dieth\\source\\repos\\testing\\testing\\models\\models\\suppliermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:models\\models\\suppliermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:models\\models\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|c:\\users\\dieth\\source\\repos\\testing\\testing\\models\\models\\inventoryclerk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\models\\models\\inventoryclerk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:models\\models\\inventoryclerk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -194,8 +194,7 @@
               "RelativeToolTip": "Models\\models\\TransactionManager.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAQwCEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T01:48:45.751Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T01:48:45.751Z"
             },
             {
               "$type": "Document",
@@ -207,8 +206,7 @@
               "RelativeToolTip": "Models\\models\\ProductCategory.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAmwBkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T06:41:23.137Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T06:41:23.137Z"
             },
             {
               "$type": "Document",
@@ -220,8 +218,7 @@
               "RelativeToolTip": "Models\\models\\InverntoryManager.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T01:49:08.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T01:49:08.405Z"
             },
             {
               "$type": "Document",
@@ -233,8 +230,7 @@
               "RelativeToolTip": "Models\\models\\Transaction.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAA9wAkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T06:18:28.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T06:18:28.056Z"
             },
             {
               "$type": "Document",
@@ -244,7 +240,7 @@
               "RelativeDocumentMoniker": "Models\\models\\SupplierManager.cs",
               "ToolTip": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\SupplierManager.cs",
               "RelativeToolTip": "Models\\models\\SupplierManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-17T01:49:25.083Z",
               "EditorCaption": ""
@@ -259,8 +255,7 @@
               "RelativeToolTip": "Models\\models\\InventoryClerk.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAmwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T03:08:38.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T03:08:38.685Z"
             },
             {
               "$type": "Document",
