@@ -3,20 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|c:\\users\\dieth\\source\\repos\\testing\\testing\\models\\models\\cashier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:models\\models\\cashier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|c:\\users\\dieth\\source\\repos\\testing\\testing\\models\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:models\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|c:\\users\\dieth\\source\\repos\\testing\\testing\\models\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:models\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|c:\\users\\dieth\\source\\repos\\testing\\testing\\models\\models\\transactionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:models\\models\\transactionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|c:\\users\\dieth\\source\\repos\\testing\\testing\\models\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:models\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\models\\models\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:models\\models\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\models\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:models\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\models\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:models\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\models\\models\\cashier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:models\\models\\cashier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\add_new_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:add_new_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\employemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:employemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,20 +59,12 @@
       "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:loginform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\dashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:dashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\Users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\employemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:employemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\cashier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,10 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\add_new_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:add_new_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\employemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,53 +122,125 @@
       "DocumentGroups": [
         {
           "DockedWidth": 22,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransactionItem.cs",
+              "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\TransactionItem.cs",
+              "RelativeDocumentMoniker": "Models\\models\\TransactionItem.cs",
+              "ToolTip": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\TransactionItem.cs",
+              "RelativeToolTip": "Models\\models\\TransactionItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T03:48:58.742Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\Products.cs",
+              "RelativeDocumentMoniker": "Models\\models\\Products.cs",
+              "ToolTip": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\Products.cs",
+              "RelativeToolTip": "Models\\models\\Products.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAABcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T05:04:29.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductCategory.cs",
+              "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\ProductCategory.cs",
+              "RelativeDocumentMoniker": "Models\\models\\ProductCategory.cs",
+              "ToolTip": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\ProductCategory.cs",
+              "RelativeToolTip": "Models\\models\\ProductCategory.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA+wBkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T06:41:23.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\Transaction.cs",
+              "RelativeDocumentMoniker": "Models\\models\\Transaction.cs",
+              "ToolTip": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\Transaction.cs",
+              "RelativeToolTip": "Models\\models\\Transaction.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T06:18:28.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Cashier.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\Cashier.cs",
               "RelativeDocumentMoniker": "Models\\models\\Cashier.cs",
               "ToolTip": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\Cashier.cs",
               "RelativeToolTip": "Models\\models\\Cashier.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwCEAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T04:21:16.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T04:21:16.172Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\Admin.cs",
               "RelativeDocumentMoniker": "Models\\models\\Admin.cs",
               "ToolTip": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\Admin.cs",
               "RelativeToolTip": "Models\\models\\Admin.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T03:27:27.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T03:27:27.98Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Users.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\Users.cs",
               "RelativeDocumentMoniker": "Models\\models\\Users.cs",
               "ToolTip": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\Users.cs",
               "RelativeToolTip": "Models\\models\\Users.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA6wCkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwCcAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-08T02:49:16.027Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
+              "Title": "ADD_NEW_PRODUCT.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\ADD_NEW_PRODUCT.cs",
+              "RelativeDocumentMoniker": "ADD_NEW_PRODUCT.cs",
+              "ToolTip": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\ADD_NEW_PRODUCT.cs [Design]",
+              "RelativeToolTip": "ADD_NEW_PRODUCT.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T03:27:17.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeManager.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\EmployeManager.cs",
+              "RelativeDocumentMoniker": "EmployeManager.cs",
+              "ToolTip": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\EmployeManager.cs [Design]",
+              "RelativeToolTip": "EmployeManager.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T03:35:24.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "LoginForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\LoginForm.cs",
               "RelativeDocumentMoniker": "LoginForm.cs",
@@ -163,42 +251,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\LoginForm.cs",
-              "RelativeDocumentMoniker": "LoginForm.cs",
-              "ToolTip": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\LoginForm.cs",
-              "RelativeToolTip": "LoginForm.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "DASHBOARD.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\DASHBOARD.cs",
+              "RelativeDocumentMoniker": "DASHBOARD.cs",
+              "ToolTip": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\DASHBOARD.cs [Design]",
+              "RelativeToolTip": "DASHBOARD.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T03:29:01.415Z"
+              "WhenOpened": "2025-12-08T02:36:37.239Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\LoginForm.Designer.cs",
-              "RelativeDocumentMoniker": "LoginForm.Designer.cs",
-              "ToolTip": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\LoginForm.Designer.cs",
-              "RelativeToolTip": "LoginForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T03:28:15.584Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoginForm.resx",
-              "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\LoginForm.resx",
-              "RelativeDocumentMoniker": "LoginForm.resx",
-              "ToolTip": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\LoginForm.resx",
-              "RelativeToolTip": "LoginForm.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-12-08T02:41:13.308Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "Users.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\Users.cs",
               "RelativeDocumentMoniker": "Models\\Users.cs",
@@ -209,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "Products.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\Products.cs",
               "RelativeDocumentMoniker": "Models\\Products.cs",
@@ -221,29 +285,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EmployeManager.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\EmployeManager.cs",
-              "RelativeDocumentMoniker": "EmployeManager.cs",
-              "ToolTip": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\EmployeManager.cs [Design]",
-              "RelativeToolTip": "EmployeManager.cs [Design]",
+              "DocumentIndex": 11,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LoginForm.cs",
+              "ToolTip": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\LoginForm.cs",
+              "RelativeToolTip": "LoginForm.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T03:35:24.476Z"
+              "WhenOpened": "2025-12-03T03:29:01.415Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DASHBOARD.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\DASHBOARD.cs",
-              "RelativeDocumentMoniker": "DASHBOARD.cs",
-              "ToolTip": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\DASHBOARD.cs [Design]",
-              "RelativeToolTip": "DASHBOARD.cs [Design]",
+              "DocumentIndex": 12,
+              "Title": "LoginForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\LoginForm.Designer.cs",
+              "RelativeDocumentMoniker": "LoginForm.Designer.cs",
+              "ToolTip": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\LoginForm.Designer.cs",
+              "RelativeToolTip": "LoginForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T02:36:37.239Z"
+              "WhenOpened": "2025-12-03T03:28:15.584Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
+              "Title": "LoginForm.resx",
+              "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\LoginForm.resx",
+              "RelativeDocumentMoniker": "LoginForm.resx",
+              "ToolTip": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\LoginForm.resx",
+              "RelativeToolTip": "LoginForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-12-08T02:41:13.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "DASHBOARD.Designer.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\DASHBOARD.Designer.cs",
               "RelativeDocumentMoniker": "DASHBOARD.Designer.cs",
@@ -255,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "CASHIER.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\CASHIER.cs",
               "RelativeDocumentMoniker": "CASHIER.cs",
@@ -267,18 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ADD_NEW_PRODUCT.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\ADD_NEW_PRODUCT.cs",
-              "RelativeDocumentMoniker": "ADD_NEW_PRODUCT.cs",
-              "ToolTip": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\ADD_NEW_PRODUCT.cs [Design]",
-              "RelativeToolTip": "ADD_NEW_PRODUCT.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T03:27:17.536Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "CASHIER.cs [Design]",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\CASHIER.cs",
               "RelativeDocumentMoniker": "CASHIER.cs",
@@ -289,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "portal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\portal.cs",
               "RelativeDocumentMoniker": "portal.cs",
@@ -300,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "EmployeManager.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\EmployeManager.cs",
               "RelativeDocumentMoniker": "EmployeManager.cs",
@@ -312,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "DASHBOARD.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\DASHBOARD.cs",
               "RelativeDocumentMoniker": "DASHBOARD.cs",
@@ -324,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "CASHIER.resx",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\CASHIER.resx",
               "RelativeDocumentMoniker": "CASHIER.resx",
@@ -335,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "CASHIER.Designer.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\CASHIER.Designer.cs",
               "RelativeDocumentMoniker": "CASHIER.Designer.cs",
@@ -347,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "EmployeManager.resx",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\EmployeManager.resx",
               "RelativeDocumentMoniker": "EmployeManager.resx",
@@ -358,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "EmployeManager.Designer.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\EmployeManager.Designer.cs",
               "RelativeDocumentMoniker": "EmployeManager.Designer.cs",
@@ -370,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "portal.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\portal.cs",
               "RelativeDocumentMoniker": "portal.cs",
@@ -382,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
