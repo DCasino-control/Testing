@@ -52,6 +52,9 @@
     <Compile Include="ADD_NEW_PRODUCT.Designer.cs">
       <DependentUpon>ADD_NEW_PRODUCT.cs</DependentUpon>
     </Compile>
+    <Compile Include="Interfaces\IAuthenticatable.cs" />
+    <Compile Include="Interfaces\IExportable.cs" />
+    <Compile Include="Interfaces\IPrintable.cs" />
     <Compile Include="Models\models\Admin.cs" />
     <Compile Include="Models\models\Cashier.cs" />
     <Compile Include="Models\models\InverntoryManager.cs" />

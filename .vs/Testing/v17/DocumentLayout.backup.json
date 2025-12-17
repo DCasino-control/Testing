@@ -3,47 +3,47 @@
   "WorkspaceRootPath": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\models\\models\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:models\\models\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|c:\\users\\dieth\\source\\repos\\testing\\testing\\models\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:models\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|c:\\users\\dieth\\source\\repos\\testing\\testing\\models\\models\\reportmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\models\\models\\reportmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:models\\models\\reportmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|c:\\users\\dieth\\source\\repos\\testing\\testing\\models\\models\\suppliermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\models\\models\\suppliermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:models\\models\\suppliermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|c:\\users\\dieth\\source\\repos\\testing\\testing\\models\\models\\inverntorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\models\\models\\inverntorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:models\\models\\inverntorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|c:\\users\\dieth\\source\\repos\\testing\\testing\\models\\models\\transactionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\models\\models\\transactionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:models\\models\\transactionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|c:\\users\\dieth\\source\\repos\\testing\\testing\\models\\models\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\models\\models\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:models\\models\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|c:\\users\\dieth\\source\\repos\\testing\\testing\\models\\models\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\models\\models\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:models\\models\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|c:\\users\\dieth\\source\\repos\\testing\\testing\\models\\models\\stockmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\models\\models\\stockmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:models\\models\\stockmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|c:\\users\\dieth\\source\\repos\\testing\\testing\\models\\models\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:models\\models\\purchaseorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|c:\\users\\dieth\\source\\repos\\testing\\testing\\models\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\models\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:models\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|c:\\users\\dieth\\source\\repos\\testing\\testing\\models\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\models\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{561961D3-47EE-4096-A98F-F14557C011F6}|Testing.csproj|solutionrelative:models\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -162,7 +162,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 22,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -170,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Report.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\Report.cs",
               "RelativeDocumentMoniker": "Models\\models\\Report.cs",
@@ -183,20 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ReportManager.cs",
-              "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\ReportManager.cs",
-              "RelativeDocumentMoniker": "Models\\models\\ReportManager.cs",
-              "ToolTip": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\ReportManager.cs",
-              "RelativeToolTip": "Models\\models\\ReportManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T01:49:53.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SupplierManager.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\SupplierManager.cs",
               "RelativeDocumentMoniker": "Models\\models\\SupplierManager.cs",
@@ -204,12 +191,11 @@
               "RelativeToolTip": "Models\\models\\SupplierManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T01:49:25.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T01:49:25.083Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "InverntoryManager.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\InverntoryManager.cs",
               "RelativeDocumentMoniker": "Models\\models\\InverntoryManager.cs",
@@ -217,12 +203,11 @@
               "RelativeToolTip": "Models\\models\\InverntoryManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T01:49:08.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T01:49:08.405Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "TransactionManager.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\TransactionManager.cs",
               "RelativeDocumentMoniker": "Models\\models\\TransactionManager.cs",
@@ -230,12 +215,36 @@
               "RelativeToolTip": "Models\\models\\TransactionManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T01:48:45.751Z",
+              "WhenOpened": "2025-12-17T01:48:45.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PurchaseOrder.cs",
+              "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\PurchaseOrder.cs",
+              "RelativeDocumentMoniker": "Models\\models\\PurchaseOrder.cs",
+              "ToolTip": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\PurchaseOrder.cs",
+              "RelativeToolTip": "Models\\models\\PurchaseOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T01:46:49.484Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "ReportManager.cs",
+              "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\ReportManager.cs",
+              "RelativeDocumentMoniker": "Models\\models\\ReportManager.cs",
+              "ToolTip": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\ReportManager.cs",
+              "RelativeToolTip": "Models\\models\\ReportManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T01:49:53.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ProductManager.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\ProductManager.cs",
               "RelativeDocumentMoniker": "Models\\models\\ProductManager.cs",
@@ -243,12 +252,11 @@
               "RelativeToolTip": "Models\\models\\ProductManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T01:48:21.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T01:48:21.895Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "UserManager.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\UserManager.cs",
               "RelativeDocumentMoniker": "Models\\models\\UserManager.cs",
@@ -256,12 +264,11 @@
               "RelativeToolTip": "Models\\models\\UserManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T01:48:02.174Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T01:48:02.174Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "StockMovement.cs",
               "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\StockMovement.cs",
               "RelativeDocumentMoniker": "Models\\models\\StockMovement.cs",
@@ -269,21 +276,7 @@
               "RelativeToolTip": "Models\\models\\StockMovement.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T01:47:24.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PurchaseOrder.cs",
-              "DocumentMoniker": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\PurchaseOrder.cs",
-              "RelativeDocumentMoniker": "Models\\models\\PurchaseOrder.cs",
-              "ToolTip": "C:\\Users\\dieth\\source\\repos\\Testing\\Testing\\Models\\models\\PurchaseOrder.cs",
-              "RelativeToolTip": "Models\\models\\PurchaseOrder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T01:46:49.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T01:47:24.434Z"
             },
             {
               "$type": "Document",
@@ -295,8 +288,7 @@
               "RelativeToolTip": "Models\\models\\Supplier.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T01:44:30.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T01:44:30.698Z"
             },
             {
               "$type": "Document",
@@ -368,8 +360,7 @@
               "RelativeToolTip": "Models\\models\\Admin.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwBYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T03:27:27.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T03:27:27.98Z"
             },
             {
               "$type": "Document",
