@@ -54,10 +54,20 @@
     </Compile>
     <Compile Include="Models\models\Admin.cs" />
     <Compile Include="Models\models\Cashier.cs" />
+    <Compile Include="Models\models\InverntoryManager.cs" />
     <Compile Include="Models\models\ProductCategory.cs" />
+    <Compile Include="Models\models\ProductManager.cs" />
     <Compile Include="Models\models\Products.cs" />
+    <Compile Include="Models\models\PurchaseOrder.cs" />
+    <Compile Include="Models\models\Report.cs" />
+    <Compile Include="Models\models\ReportManager.cs" />
+    <Compile Include="Models\models\StockMovement.cs" />
+    <Compile Include="Models\models\Supplier.cs" />
+    <Compile Include="Models\models\SupplierManager.cs" />
     <Compile Include="Models\models\Transaction.cs" />
     <Compile Include="Models\models\TransactionItem.cs" />
+    <Compile Include="Models\models\TransactionManager.cs" />
+    <Compile Include="Models\models\UserManager.cs" />
     <Compile Include="Models\models\Users.cs" />
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
