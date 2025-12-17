@@ -31,7 +31,13 @@ namespace Testing.Models.models
 
         public override void ShowDashboard()
         {
-            // diri ma show and dashboard
+            // Dashboard logic
+        }
+
+        public void UpdateSalesMetrics(decimal amount)
+        {
+            TodaysSales += amount;
+            TransactionCount++;
         }
     }
 }
