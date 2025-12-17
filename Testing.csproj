@@ -57,6 +57,7 @@
     <Compile Include="Interfaces\IPrintable.cs" />
     <Compile Include="Models\models\Admin.cs" />
     <Compile Include="Models\models\Cashier.cs" />
+    <Compile Include="Models\models\InventoryClerk.cs" />
     <Compile Include="Models\models\InverntoryManager.cs" />
     <Compile Include="Models\models\ProductCategory.cs" />
     <Compile Include="Models\models\ProductManager.cs" />
