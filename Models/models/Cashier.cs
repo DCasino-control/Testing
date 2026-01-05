@@ -6,7 +6,38 @@ using System.Threading.Tasks;
 
 namespace Testing.Models.models
 {
-    internal class Cashier
+    public class Cashier : User
     {
+        public decimal TodaysSales { get; set; }
+        public int TransactionCount { get; set; }
+
+        public Cashier()
+        {
+            Role = "Cashier";
+            TodaysSales = 0;
+            TransactionCount = 0;
+        }
+
+        public override List<string> GetPermissions()
+        {
+            return new List<string>
+            {
+                "Process Sales",
+                "Print Receipts",
+                "View Inventory",
+                "Request Refunds"
+            };
+        }
+
+        public override void ShowDashboard()
+        {
+            // Dashboard logic
+        }
+
+        public void UpdateSalesMetrics(decimal amount)
+        {
+            TodaysSales += amount;
+            TransactionCount++;
+        }
     }
 }

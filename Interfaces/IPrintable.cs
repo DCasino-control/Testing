@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Testing.Models
+namespace Testing.Interfaces
 {
-    public class Products
+    public interface IPrintable
     {
+        void Print();
     }
 }

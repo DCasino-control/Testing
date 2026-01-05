@@ -6,29 +6,27 @@ using System.Threading.Tasks;
 
 namespace Testing.Models.models
 {
-    public class Admin : User
+    public class InventoryClerk : User
     {
-        public Admin()
+        public InventoryClerk()
         {
-            Role = "Admin";
+            Role = "Inventory Clerk";
         }
 
-        // E-Implement ang abstract na methods
         public override List<string> GetPermissions()
         {
             return new List<string>
             {
-                "Manage Users",
-                "Adjust Prices",
-                "View All Reports",
-                "Approve Refunds",
-                "System Configuration"
+                "Manage Stock",
+                "Record Stock In/Out",
+                "Update Products",
+                "Generate Inventory Reports"
             };
         }
 
         public override void ShowDashboard()
         {
-            // mao ni mo show ug Dashboard process para sa Admin
+            // Dashboard logic
         }
     }
 }
