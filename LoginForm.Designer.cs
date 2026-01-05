@@ -1,6 +1,6 @@
 ﻿namespace Testing
 {
-    partial class USER_LOGIN
+    partial class LoginForm
     {
         /// <summary>
         /// Required designer variable.
@@ -73,7 +73,7 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
-            // USER_LOGIN
+            // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -82,8 +82,9 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button4);
-            this.Name = "USER_LOGIN";
+            this.Name = "LoginForm";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.USER_LOGIN_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
