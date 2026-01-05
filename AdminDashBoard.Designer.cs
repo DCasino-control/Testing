@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace Testing
 {
-    partial class LoginForm: Form
+    partial class Form1 : Form
     {
         /// <summary>
         /// Required designer variable.
@@ -22,6 +22,8 @@ namespace Testing
             }
             base.Dispose(disposing);
         }
+       
+
 
         #region Windows Form Designer generated code
 
@@ -29,25 +31,8 @@ namespace Testing
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent()
-        {
-            this.SuspendLayout();
-            // 
-            // LoginForm
-            // 
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.ClientSize = new System.Drawing.Size(432, 503);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.MaximizeBox = false;
-            this.Name = "LoginForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "UMVC Canteen System - Login";
-            this.Load += new System.EventHandler(this.LoginForm_Load);
-            this.ResumeLayout(false);
-
-        }
+        
 
         #endregion
     }
-    
 }
