@@ -1,342 +1,206 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing;
+using Testing.Database;
 using Testing.Models;
-using Testing.Models.models;
+using MySql.Data.MySqlClient;
+using System.Data;
 
-namespace Testing
+namespace Testing.Forms
 {
     public partial class LoginForm : Form
     {
-        private UserManager userManager;
-
-        // UI Controls
-        private Panel mainPanel;
-        private Label titleLabel;
-        private Label subtitleLabel;
-        private Label usernameLabel;
-        private TextBox usernameTextBox;
-        private Label passwordLabel;
-        private TextBox passwordTextBox;
-        private Button loginButton;
-        private Label messageLabel;
-        private Panel headerPanel;
+        private DatabaseConnection db;
 
         public LoginForm()
         {
             InitializeComponent();
-            InitializeCustomComponents();
-            userManager = new UserManager();
-            LoadDefaultUsers();
-        }
+            db = DatabaseConnection.Instance;
 
-       
+            // FIX 1: Removed the manual "btnLogin.Click +=" line because 
+            // your Designer file is already doing it (that caused the error).
 
-        private void InitializeCustomComponents()
-        {
-            // ═══ HEADER PANEL ═══
-            headerPanel = new Panel
-            {
-                Size = new Size(450, 100),
-                Location = new Point(0, 0),
-                BackColor = Color.FromArgb(33, 150, 243)
-            };
-            this.Controls.Add(headerPanel);
+            chkShowPassword.CheckedChanged += ChkShowPassword_CheckedChanged;
+            txtPassword.KeyPress += TxtPassword_KeyPress;
 
-            // ═══ TITLE ═══
-            titleLabel = new Label
-            {
-                Text = "🏪 UMVC CANTEEN",
-                Font = new Font("Segoe UI", 20, FontStyle.Bold),
-                ForeColor = Color.White,
-                Size = new Size(450, 40),
-                Location = new Point(0, 20),
-                TextAlign = ContentAlignment.MiddleCenter
-            };
-            headerPanel.Controls.Add(titleLabel);
-
-            // ═══ SUBTITLE ═══
-            subtitleLabel = new Label
-            {
-                Text = "Inventory & POS System",
-                Font = new Font("Segoe UI", 11, FontStyle.Regular),
-                ForeColor = Color.White,
-                Size = new Size(450, 30),
-                Location = new Point(0, 60),
-                TextAlign = ContentAlignment.MiddleCenter
-            };
-            headerPanel.Controls.Add(subtitleLabel);
-
-            // ═══ MAIN PANEL ═══
-            mainPanel = new Panel
-            {
-                Size = new Size(350, 320),
-                Location = new Point(50, 130),
-                BackColor = Color.White
-            };
-            // Add shadow effect
-            mainPanel.Paint += (s, e) =>
-            {
-                ControlPaint.DrawBorder(e.Graphics, mainPanel.ClientRectangle,
-                    Color.LightGray, 1, ButtonBorderStyle.Solid,
-                    Color.LightGray, 1, ButtonBorderStyle.Solid,
-                    Color.LightGray, 1, ButtonBorderStyle.Solid,
-                    Color.LightGray, 1, ButtonBorderStyle.Solid);
-            };
-            this.Controls.Add(mainPanel);
-
-            // ═══ USERNAME LABEL ═══
-            usernameLabel = new Label
-            {
-                Text = "Username",
-                Font = new Font("Segoe UI", 10, FontStyle.Regular),
-                Size = new Size(300, 25),
-                Location = new Point(25, 30)
-            };
-            mainPanel.Controls.Add(usernameLabel);
-
-            // ═══ USERNAME TEXTBOX ═══
-            usernameTextBox = new TextBox
-            {
-                Font = new Font("Segoe UI", 12),
-                Size = new Size(300, 35),
-                Location = new Point(25, 60),
-                BorderStyle = BorderStyle.FixedSingle
-            };
-            mainPanel.Controls.Add(usernameTextBox);
-
-            // ═══ PASSWORD LABEL ═══
-            passwordLabel = new Label
-            {
-                Text = "Password",
-                Font = new Font("Segoe UI", 10, FontStyle.Regular),
-                Size = new Size(300, 25),
-                Location = new Point(25, 110)
-            };
-            mainPanel.Controls.Add(passwordLabel);
-
-            // ═══ PASSWORD TEXTBOX ═══
-            passwordTextBox = new TextBox
-            {
-                Font = new Font("Segoe UI", 12),
-                Size = new Size(300, 35),
-                Location = new Point(25, 140),
-                BorderStyle = BorderStyle.FixedSingle,
-                PasswordChar = '●'
-            };
-            mainPanel.Controls.Add(passwordTextBox);
-
-            // ═══ LOGIN BUTTON ═══
-            loginButton = new Button
-            {
-                Text = "LOGIN",
-                Font = new Font("Segoe UI", 12, FontStyle.Bold),
-                Size = new Size(300, 45),
-                Location = new Point(25, 200),
-                BackColor = Color.FromArgb(76, 175, 80),
-                ForeColor = Color.White,
-                FlatStyle = FlatStyle.Flat,
-                Cursor = Cursors.Hand
-            };
-            loginButton.FlatAppearance.BorderSize = 0;
-            loginButton.Click += LoginButton_Click;
-            mainPanel.Controls.Add(loginButton);
-
-            // ═══ MESSAGE LABEL ═══
-            messageLabel = new Label
-            {
-                Text = "",
-                Font = new Font("Segoe UI", 9, FontStyle.Regular),
-                ForeColor = Color.Red,
-                Size = new Size(300, 40),
-                Location = new Point(25, 260),
-                TextAlign = ContentAlignment.MiddleCenter
-            };
-            mainPanel.Controls.Add(messageLabel);
-
-            // ═══ DEFAULT CREDENTIALS INFO ═══
-            Label infoLabel = new Label
-            {
-                Text = "Default Login:\nAdmin: admin / admin123\nCashier: cashier1 / cash123",
-                Font = new Font("Segoe UI", 8, FontStyle.Italic),
-                ForeColor = Color.Gray,
-                Size = new Size(450, 60),
-                Location = new Point(0, 460),
-                TextAlign = ContentAlignment.MiddleCenter
-            };
-            this.Controls.Add(infoLabel);
-
-            // ═══ ENTER KEY SUPPORT ═══
-            this.AcceptButton = loginButton;
-            usernameTextBox.KeyPress += (s, e) =>
-            {
-                if (e.KeyChar == (char)Keys.Enter)
-                {
-                    passwordTextBox.Focus();
-                    e.Handled = true;
-                }
-            };
-        }
-
-        private void LoadDefaultUsers()
-        {
-            // Create default users
-            userManager.AddUser(new Admin
-            {
-                UserId = 1,
-                Username = "admin",
-                Password = "admin123",
-                FullName = "Juan Dela Cruz",
-                Email = "admin@umvc.edu"
-            });
-
-            userManager.AddUser(new Cashier
-            {
-                UserId = 2,
-                Username = "cashier1",
-                Password = "cash123",
-                FullName = "Maria Santos",
-                Email = "maria@umvc.edu"
-            });
-
-            userManager.AddUser(new InventoryClerk
-            {
-                UserId = 3,
-                Username = "clerk1",
-                Password = "clerk123",
-                FullName = "Pedro Garcia",
-                Email = "pedro@umvc.edu"
-            });
-        }
-
-        private void LoginButton_Click(object sender, EventArgs e)
-        {
-            // Clear previous message
-            messageLabel.Text = "";
-            messageLabel.ForeColor = Color.Red;
-
-            // Validate input
-            if (string.IsNullOrWhiteSpace(usernameTextBox.Text))
-            {
-                messageLabel.Text = "Please enter username";
-                usernameTextBox.Focus();
-                return;
-            }
-
-            if (string.IsNullOrWhiteSpace(passwordTextBox.Text))
-            {
-                messageLabel.Text = "Please enter password";
-                passwordTextBox.Focus();
-                return;
-            }
-
-            // Disable button during login
-            loginButton.Enabled = false;
-            loginButton.Text = "Logging in...";
-
-            // Attempt login
-            User user = userManager.Authenticate(usernameTextBox.Text, passwordTextBox.Text);
-
-            if (user != null)
-            {
-                // Success!
-                messageLabel.ForeColor = Color.Green;
-                messageLabel.Text = $"✓ Welcome {user.FullName}!";
-
-                // Show message for 1 second then open dashboard
-                Timer timer = new Timer();
-                timer.Interval = 1000;
-                timer.Tick += (s, ev) =>
-                {
-                    timer.Stop();
-                    OpenDashboard(user);
-                };
-                timer.Start();
-            }
-            else
-            {
-                // Failed
-                messageLabel.Text = "✗ Invalid username or password";
-                passwordTextBox.Clear();
-                passwordTextBox.Focus();
-                loginButton.Enabled = true;
-                loginButton.Text = "LOGIN";
-
-                // Shake animation
-                ShakeForm();
-            }
-        }
-
-        private void ShakeForm()
-        {
-            // Simple shake effect
-            Point originalLocation = this.Location;
-            Timer shakeTimer = new Timer();
-            shakeTimer.Interval = 50;
-            int shakeCount = 0;
-
-            shakeTimer.Tick += (s, e) =>
-            {
-                shakeCount++;
-                if (shakeCount % 2 == 0)
-                    this.Location = new Point(originalLocation.X + 10, originalLocation.Y);
-                else
-                    this.Location = originalLocation;
-
-                if (shakeCount >= 6)
-                {
-                    shakeTimer.Stop();
-                    this.Location = originalLocation;
-                }
-            };
-            shakeTimer.Start();
-        }
-
-        private void OpenDashboard(User user)
-        {
-            // Hide login form
-            this.Hide();
-
-            // Open dashboard based on user role
-            Form dashboard = null;
-
-            if (user is Admin)
-            {
-                dashboard = new AdminDashboard(user as Admin);
-            }
-            else if (user is Cashier)
-            {
-                dashboard = new CashierDashboard(user as Cashier);
-            }
-            else if (user is InventoryClerk)
-            {
-                dashboard = new InventoryDashboard(user as InventoryClerk);
-            }
-
-            if (dashboard != null)
-            {
-                dashboard.FormClosed += (s, e) =>
-                {
-                    // Show login again when dashboard closes
-                    this.Show();
-                    usernameTextBox.Clear();
-                    passwordTextBox.Clear();
-                    usernameTextBox.Focus();
-                    loginButton.Enabled = true;
-                    loginButton.Text = "LOGIN";
-                    messageLabel.Text = "";
-                };
-                dashboard.Show();
-            }
+            this.Load += LoginForm_Load;
         }
 
         private void LoginForm_Load(object sender, EventArgs e)
+        {
+            // Optional: Test connection on load
+        }
+
+        // FIX 2: Renamed this method to 'btnLogin_Click_1' to match your error message
+        private void btnLogin_Click_1(object sender, EventArgs e)
+        {
+            // Validate inputs
+            if (string.IsNullOrWhiteSpace(txtUsername.Text))
+            {
+                MessageBox.Show("Please enter your username.", "Validation Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtUsername.Focus();
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(txtPassword.Text))
+            {
+                MessageBox.Show("Please enter your password.", "Validation Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtPassword.Focus();
+                return;
+            }
+
+            // Attempt login
+            PerformLogin();
+        }
+
+        private void PerformLogin()
+        {
+            // We use a manual connection here to ensure the Adapter works correctly
+            using (MySqlConnection con = DatabaseConnection.Instance.GetConnection())
+            {
+                try
+                {
+                    con.Open();
+
+                    string query = @"SELECT UserId, Username, FullName, Role, IsActive 
+                                   FROM Users 
+                                   WHERE Username = @username 
+                                   AND Password = @password 
+                                   AND IsActive = 1";
+
+                    using (MySqlCommand cmd = new MySqlCommand(query, con))
+                    {
+                        cmd.Parameters.AddWithValue("@username", txtUsername.Text.Trim());
+                        cmd.Parameters.AddWithValue("@password", txtPassword.Text);
+
+                        MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
+                        DataTable dt = new DataTable();
+                        adapter.Fill(dt);
+
+                        if (dt.Rows.Count > 0)
+                        {
+                            var row = dt.Rows[0];
+                            int userId = Convert.ToInt32(row["UserId"]);
+                            string username = row["Username"].ToString();
+                            string fullName = row["FullName"].ToString();
+                            string role = row["Role"].ToString();
+
+                            UpdateLastLogin(userId);
+                            LogActivity(userId, "Login", $"User {username} logged in");
+
+                            MessageBox.Show($"Welcome, {fullName}!", "Login Successful",
+                                MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                            this.Hide();
+
+                            // Open appropriate form based on role
+                            switch (role)
+                            {
+                                case "Admin":
+                                    var adminDashboard = new AdminDashboard(userId, fullName);
+                                    adminDashboard.ShowDialog();
+                                    break;
+                                case "Cashier":
+                                    var cashierDashboard = new CashierDashboard(userId, fullName);
+                                    cashierDashboard.ShowDialog();
+                                    break;
+                                case "InventoryClerk":
+                                    var clerkDashboard = new InventoryClerkDashboard(userId, fullName);
+                                    clerkDashboard.ShowDialog();
+                                    break;
+                                default:
+                                    MessageBox.Show("Role not recognized: " + role, "Login Error");
+                                    break;
+                            }
+                            this.Close();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Invalid username or password.", "Login Failed",
+                                MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            txtPassword.Clear();
+                            txtPassword.Focus();
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Login error: {ex.Message}", "Error",
+                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+        private void UpdateLastLogin(int userId)
+        {
+            try
+            {
+                using (MySqlConnection con = DatabaseConnection.Instance.GetConnection())
+                {
+                    con.Open();
+                    string query = "UPDATE Users SET LastLogin = NOW() WHERE UserId = @userId";
+                    using (MySqlCommand cmd = new MySqlCommand(query, con))
+                    {
+                        cmd.Parameters.AddWithValue("@userId", userId);
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error updating last login: {ex.Message}");
+            }
+        }
+
+        private void LogActivity(int userId, string action, string description)
+        {
+            try
+            {
+                using (MySqlConnection con = DatabaseConnection.Instance.GetConnection())
+                {
+                    con.Open();
+                    string query = @"INSERT INTO ActivityLogs (UserId, Action, Description) 
+                                   VALUES (@userId, @action, @description)";
+                    using (MySqlCommand cmd = new MySqlCommand(query, con))
+                    {
+                        cmd.Parameters.AddWithValue("@userId", userId);
+                        cmd.Parameters.AddWithValue("@action", action);
+                        cmd.Parameters.AddWithValue("@description", description);
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error logging activity: {ex.Message}");
+            }
+        }
+
+        private void ChkShowPassword_CheckedChanged(object sender, EventArgs e)
+        {
+            txtPassword.PasswordChar = chkShowPassword.Checked ? '\0' : '●';
+        }
+
+        private void TxtPassword_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                // We call the new function name here too
+                btnLogin_Click_1(sender, e);
+            }
+        }
+
+        private void panelLeft_Paint(object sender, PaintEventArgs e)
+        {
+        }
+
+        private void txtUsername_TextChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void panelRight_Paint(object sender, PaintEventArgs e)
         {
 
         }
